@@ -19,10 +19,10 @@ def play():
     computer=random.choice(['r','p','s'])
     if user==computer:
         return ('its a tie :l').format()
-    if is_win(user, computer):
+    if win(user, computer):
         return ('you won :)').format(user, computer)
     return ('you lost :(')
-def is_win(player, opponent):
+def win(player, opponent):
     if (player== 'r' and opponent== 's') or (player=='s' and opponent == 'p') or (player== 'p' and opponent== 'r'):
         return True 
     return False
