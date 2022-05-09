@@ -1,8 +1,7 @@
-#Katie Frymire
-#3/8/22
+#William Black
+#5/9/22
 #make a pacman like game, move thing around screen, how to draw shape, how to use keys to move objects, dictionary
 #objective of game: rectange to run away from circle;if the 2 collide, rect disappears and circle gets bigger
-#C:\Users\Katie\coding and game design\BlockE_GameDESIGN\Class Stuff\colorCycle.py
 from decimal import ROUND_UP
 
 import os, random, math,datetime
